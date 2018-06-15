@@ -2096,7 +2096,7 @@
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
+			/* background-image: url("images/overlay.png"); */
 			content: '';
 			display: block;
 			height: 100%;
@@ -2136,7 +2136,7 @@
 			-ms-perspective: 500px;
 			perspective: 500px;
 		}
-
+		/* need to change from text align since it's no longer a font or change it back to a different icon and put a picture elsewhere */
 			.image.icon:before {
 				-moz-transition: -moz-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-webkit-transition: -webkit-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
@@ -2506,19 +2506,21 @@
 /* Header */
 
 	#header {
+		/* background: linear-gradient(rgba(47,109,109),rgba(70,163,163) ); */
+		/* background-color: rgba(255, 255, 255, 0.35); */
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/top-3200.svg"), url("images/palm-leaf.png");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
-		color: rgba(255, 255, 255, 0.8);
+		color: #1f472c;
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
 	}
 
 		#header:before, #header:after {
-			background: rgba(224, 224, 224, 0.75);
+			background: rgba(224, 224, 224, 0.8);
 			content: '';
 			left: 50%;
 			position: absolute;
@@ -2552,7 +2554,7 @@
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #1f472c;
 		}
 
 		#header input[type="submit"],
@@ -2560,11 +2562,11 @@
 		#header input[type="button"],
 		#header .button {
 			background: #ffffff;
-			color: #544d55;
+			color: #ef9689;
 		}
 
 		#header .logo {
-			background: #4eb980;
+			background: #ef9689;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2577,7 +2579,7 @@
 			width: 2.35em;
 		}
 
-			#header .logo.fa-paper-plane-o:before {
+			#header .logo.fa-code:before {
 				left: -0.075em;
 				position: relative;
 			}
@@ -2597,7 +2599,7 @@
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #ef9689;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
@@ -2616,7 +2618,7 @@
 	}
 
 		#footer:before {
-			background: rgba(224, 224, 224, 0.75);
+			background: #ef9689;
 			content: '';
 			height: calc(460px + 6em);
 			left: 50%;
@@ -2712,7 +2714,7 @@
 	}
 
 		#main:before {
-			background: rgba(224, 224, 224, 0.75);
+			background:rgba(224, 224, 224, 0.8);
 			content: '';
 			height: 100%;
 			left: 50%;
@@ -2823,7 +2825,7 @@
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("images/top-1600.svg"), url("images/palm-leaf.png");
 				background-size: 1600px 230px,					auto,							cover;
 				padding: 6em 0 12em 0;
 			}
@@ -2976,7 +2978,7 @@
 				}
 
 				.feature .content {
-					border: solid 1px rgba(224, 224, 224, 0.75);
+					border: solid 1px #ef9689;
 					padding: 2em !important;
 					text-align: center;
 					width: 100%;
@@ -2985,7 +2987,7 @@
 		/* Header */
 
 			#header {
-				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("images/top-1280.svg"), url("images/palm-leaf.png");
 				background-size: 1280px 184px,						auto,							cover;
 				padding: 3em 0 7em 0;
 			}
