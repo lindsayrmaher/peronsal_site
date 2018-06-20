@@ -1819,8 +1819,11 @@
 	}
 
 	.colorOver {
-		background: rgba(239,150,137, 0.2)
+		background-color: rgba(239,150,137, 0.7);
 	}
+	/* .colorOverRight {
+		background-color: rgba(47,109,109, 0.1);
+	} */
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
