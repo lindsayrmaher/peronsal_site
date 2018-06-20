@@ -1819,7 +1819,8 @@
 	}
 
 	.colorOver {
-		background-color: rgba(239,150,137, 0.7);
+		/* z-index: 2; */
+		background-color: rgba(239,150,137, 0.3);
 	}
 	/* .colorOverRight {
 		background-color: rgba(47,109,109, 0.1);
@@ -2135,6 +2136,7 @@
 			.image.feature img {
 				display: block;
 				width: 100%;
+			
 			}
 
 		.image.icon {
@@ -2490,6 +2492,7 @@
 				.feature.left .image img {
 					right: 0;
 					top: 0;
+					z-index: -2;
 				}
 
 			.feature.left .content {
@@ -2507,6 +2510,7 @@
 				.feature.right .image img {
 					left: 0;
 					top: 0;
+					z-index: -2;
 				}
 
 			.feature.right .content {
@@ -2515,6 +2519,12 @@
 
 		.feature.long .content {
 			padding-top: 0;
+		}
+
+		.tint {
+			background-color: rgba(239,150,137, 0.8);
+			width: 100%;
+			height: 100%
 		}
 
 /* Header */
